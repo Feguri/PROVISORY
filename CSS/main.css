@@ -6,7 +6,7 @@ html {
 }
 
 figure {
-    margin-left: 5px;
+    margin-left: 25px;
 }
 
 header {
@@ -22,10 +22,10 @@ header {
 }
 
 main {
-    border-radius: 60px;
+    border-radius: 40px;
     width: 50%;
     margin: 110px auto;
-    background-color: #0b0713;
+    background-color: #020613d4;
     border: 1px solid white;
     padding: 30 60px;
 }
@@ -33,9 +33,9 @@ main {
 aside {
     position: fixed;
     z-index: 2147483645;
-    border-radius: 40px;
+    border-radius: 30px;
     width: 160px;
-    background-color: #0b0713;
+    background-color: #020613d4;
     border: 1px solid white;
     padding: 15 30px;
     margin: 115px 15px;
@@ -87,16 +87,39 @@ span:hover {
     color: #00b844;
 }
 
+.pointer { cursor: pointer; }
+
 #content {
     display: flex;
 }
 
+.join {
+    background-color: turquoise;
+}
 .mt-1 {
-    margin-top: 485px;
+    margin-top: 410px;
+    margin-left: 30px;
+}
+.mb-1 {
+    top: 0;
+    width: 200px;
 }
 img {
     border: 1px solid white;
+    max-width: 100%;
+    height: auto;
+    width: auto !important; /* ie8 */
 }
+
+.quark {
+    font-size: small;
+}
+
+.quark-img {
+    width: 150px;
+    height: 150px;
+}
+
 .img-1 {
     margin: 0 auto;
 }
@@ -133,4 +156,13 @@ p {
     letter-spacing: 0.87px;
     text-indent: 60px;
     margin-bottom: 60px;
+}
+
+.ad { 
+    display: none;
+    background-color:#020f21;
+}
+.author {
+    display: none;
+    background-color:#010811;
 }
