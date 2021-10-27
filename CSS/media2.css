@@ -1,7 +1,7 @@
-img {
-    margin-right: 20px;
-}
 
+img:hover {
+    transform: scale(1.03);
+}
 @media only screen and (max-width: 1600px ) {
 
     main {
@@ -11,6 +11,7 @@ img {
 }
 
 @media only screen and (max-width: 800px ) {
+
     logo {
         padding-left: 10px;
     }
@@ -19,6 +20,7 @@ img {
         height: 135px;
         margin-left: 10px !important;
     }
+
     figure {
         margin: 0;
     }
@@ -31,8 +33,15 @@ img {
         height: 95px;
         margin-left: 10px !important;
     }
+    
     figure {
         margin: 0;
     }
 
+}
+
+@media only screen and (max-width: 390px ) {
+    #starfleet {
+        display: none;
+    }
 }

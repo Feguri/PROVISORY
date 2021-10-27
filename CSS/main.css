@@ -171,3 +171,8 @@ p {
     display: none;
     background-color:#010811;
 }
+@media only screen and (max-width: 359px ) {
+    #starfleet {
+        display: none;
+    }
+}
