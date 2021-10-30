@@ -20,9 +20,18 @@ img:hover {
         height: 135px;
         margin-left: 10px !important;
     }
+    .img-1 {
+        margin: 0 auto;
+        height: 100px !important;
+        width: 175px !important;
+    }
 
     figure {
         margin: 0;
+    }
+
+    h2 {
+        margin-bottom: 60px !important;
     }
 
 }
@@ -44,4 +53,5 @@ img:hover {
     #starfleet {
         display: none;
     }
+
 }
