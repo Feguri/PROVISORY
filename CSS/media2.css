@@ -10,7 +10,7 @@ img:hover {
 
 }
 
-@media only screen and (max-width: 800px ) {
+@media only screen and (max-width: 900px ) {
 
     logo {
         padding-left: 10px;
@@ -50,6 +50,7 @@ img:hover {
 }
 
 @media only screen and (max-width: 320px ) {
+    
     #starfleet {
         display: none;
     }
